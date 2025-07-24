@@ -126,6 +126,7 @@ h3 {
 .header {
 	padding-bottom: 235px;
 	height: 100vh;
+	display: flex;
 }
 
 .hidden{
@@ -651,9 +652,6 @@ footer {
 	.container {
 	  width: 100%;
 	  padding: 0 30px;
-	}
-	.header{
-		max-height: 550px;
 	}
 	.header_menu {
 		padding-left: 30px;
