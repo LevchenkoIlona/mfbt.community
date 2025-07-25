@@ -125,8 +125,7 @@ h3 {
 
 .header {
 	padding-bottom: 235px;
-	height: 100vh;
-	display: flex;
+
 }
 
 .hidden{
@@ -494,7 +493,13 @@ footer {
 }
 
 /*Адаптив*/
-
+	
+@media (min-height: 501px) and (max-height: 1499px) and (orientation: landscape) {
+	.header{
+		height: 100vh;
+		display: flex;
+	}
+}
   @media screen and (max-width: 1200px) {
 	.container {
 	  width: 900px;
